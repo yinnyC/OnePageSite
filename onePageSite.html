@@ -1,127 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taiwan Travel Guide</title>
-    <!-- Import style.css -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main>
-      <section id="banner">
-        <div class="mask">
-          <nav>
-            <h1><a href="#">Taiwan Travel Guide</a></h1>
-            <ul>
-              <li><a href="#jifen">Jifen</a></li>
-              <li><a href="#night_market">Night Market</a></li>
-              <li><a href="#call_to_action">Sign Up</a></li>
-            </ul>
-          </nav>
-          <span class="headline"
-            >101 Things To Do In
-            <p>台灣</p>
-          </span>
-        </div>
-      </section>
-      <section id="jifen">
-        <header>
-          <span>JIUFEN: THE REAL LIFE SPIRITED AWAY</span> <br />
-          <span>IT'S ALL THERE: FOOD, RED LANTERNS, ONSEN, AND MORE</span>
-        </header>
-        <div>
-          <div>
-            <p>
-              Fans of Studio Ghibli movies and Hayao Miyazaki will certainly
-              want to visit Jiufen –
-              <b
-                >the location that was Miyazaki’s inspiration for Spirited
-                Away.</b
-              >
-              Even those who are not familiar with the movie however will
-              certainly fall in love with quaint, quirky Jiufen. Where locals
-              sip tea in colonial tea rooms that overlook the sea, where
-              traditional lanterns gently dance in the breeze and where you
-              could spend an entire day getting lost among winding, labyrinth
-              style alleyways, to travel to Jiufen is like stepping back in time
-              or into a fairytale and this area almost feels like a completely
-              different country to busy, hectic Taipei.
-            </p>
-            <a href="https://www.tofugu.com/travel/jiufen-spirited-away/"
-              >Read More</a
-            >
-          </div>
-          <div>
-            <img src="images/chihiro.png" alt="chihiro" />
-          </div>
-        </div>
-      </section>
-      <section id="night_market">
-        <header>
-          <span>The Ultimate Guide To Taipei's Night Market</span><br />
-          <span>Let The Food Marathon Begin!</span>
-        </header>
-        <ul>
-          <li class="card">
-            <img src="images/lu-rou-fan021.jpg" />
-            <h5>lu rou fan (pork braised rice)</h5>
-            <p>
-              Taiwanese comfort food at its best. Melt in the mouth pork braised
-              in a gorgeous thick sweet & savory sauce. So addictive you can’t
-              stop eating.
-            </p>
-          </li>
-          <li class="card">
-            <img src="images/shaved_ice.png" />
-            <h5>Mango Shaved Ice</h5>
-            <p>
-              A beloved Taiwanese ice dessert, mango shaved ice is typically
-              made by shaving mango-flavored ice into a bowl and serving the ice
-              shavings with fresh mango cubes and condensed milk.
-            </p>
-          </li>
-          <li class="card">
-            <img src="images/Gua-Bao.jpg" />
-            <h5>Pork Belly Buns (Gua Bao)</h5>
-            <p>
-              Braised pork belly, pickled greens, coriander and powdered
-              peanuts, all wrapped in a soft steamed bun.Just one bite is needed
-              for an explosion of flavor and texture in your mouth.
-            </p>
-          </li>
-          <li class="card">
-            <img src="images/boba.jpg"/>
-            <h5>Boba Tea</h5>
-            <p>
-              If there is one thing you cannot miss out on in Taiwan, it’s
-              bubble tea. Hundreds – or even thousands – of bubble tea stalls
-              line the metro with unique flavours and sometimes questionable
-              concoctions.
-            </p>
-          </li>
-          <li class="card">
-            <img src="images/fried_chicken.jpg" />
-            <h5>XXL fried chicken cutlet</h5>
-            <p>
-              A favorite between-meals snack for us,the Taiwanese know their
-              fried chicken really well! Originating from Taipei’s night
-              markets, this hugeass crispy chicken-ey snack is generously coated
-              with sweet and spicy seasonings!
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <section id="call_to_action">
-            <div>
-                <h2>Sign Up For Emails To Get Our Latest News <br> Before Anybody Else </h2>
-                <form>
-                    <input type="email" name="email" placeholder="Enter Your Email"><button type="submit">Submit</button>
-                </form>
-            </div>
-      </section>
-      
-    </main>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Taiwan Travel Guide</title>
+		<!-- Import style.css -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<nav>
+				<h1><a href="#">Taiwan Travel Guide</a></h1>
+				<ul>
+					<li><a href="#jifen">Jifen</a></li>
+					<li><a href="#night_market">Night Market</a></li>
+					<li><a href="#call_to_action">Sign Up</a></li>
+				</ul>
+			</nav>
+			<section id="banner">
+				<div class="mask">
+					<span class="headline"
+						>101 Things To Do In
+						<p>台灣</p>
+					</span>
+				</div>
+			</section>
+			<section id="jifen">
+				<header style="margin-top: 80px">
+					<span>JIUFEN: THE REAL LIFE SPIRITED AWAY</span> <br />
+					<span id="jifen-2"
+						>IT'S ALL THERE: FOOD, RED LANTERNS, ONSEN, AND MORE</span
+					>
+				</header>
+				<div>
+					<div>
+						<p>
+							Fans of Studio Ghibli movies and Hayao Miyazaki will certainly
+							want to visit Jiufen –
+							<b
+								>the location that was Miyazaki’s inspiration for Spirited
+								Away.</b
+							>
+							Even those who are not familiar with the movie however will
+							certainly fall in love with quaint, quirky Jiufen. Where locals
+							sip tea in colonial tea rooms that overlook the sea, where
+							traditional lanterns gently dance in the breeze and where you
+							could spend an entire day getting lost among winding, labyrinth
+							style alleyways, to travel to Jiufen is like stepping back in time
+							or into a fairytale and this area almost feels like a completely
+							different country to busy, hectic Taipei.
+						</p>
+						<a href="https://www.tofugu.com/travel/jiufen-spirited-away/"
+							>Read More</a
+						>
+					</div>
+					<div>
+						<img src="images/chihiro.png" alt="chihiro" />
+					</div>
+				</div>
+			</section>
+			<section id="night_market">
+				<header>
+					<span>The Ultimate Guide To Taipei's Night Market</span><br />
+					<span>Let The Food Marathon Begin!</span>
+				</header>
+				<ul>
+					<li class="card" data-aos="flip-up" data-aos-duration="2000">
+						<img src="images/lu-rou-fan021.jpg" />
+						<h5>lu rou fan (pork braised rice)</h5>
+						<p>
+							Taiwanese comfort food at its best. Melt in the mouth pork braised
+							in a gorgeous thick sweet & savory sauce. So addictive you can’t
+							stop eating.
+						</p>
+					</li>
+					<li class="card" data-aos="flip-up" data-aos-duration="2000">
+						<img src="images/shaved_ice.png" />
+						<h5>Mango Shaved Ice</h5>
+						<p>
+							A beloved Taiwanese ice dessert, mango shaved ice is typically
+							made by shaving mango-flavored ice into a bowl and serving the ice
+							shavings with fresh mango cubes and condensed milk.
+						</p>
+					</li>
+					<li class="card" data-aos="flip-up" data-aos-duration="2000">
+						<img src="images/Gua-Bao.jpg" />
+						<h5>Pork Belly Buns (Gua Bao)</h5>
+						<p>
+							Braised pork belly, pickled greens, coriander and powdered
+							peanuts, all wrapped in a soft steamed bun.Just one bite is needed
+							for an explosion of flavor and texture in your mouth.
+						</p>
+					</li>
+					<li class="card" data-aos="flip-up" data-aos-duration="2000">
+						<img src="images/boba.jpg" />
+						<h5>Boba Tea</h5>
+						<p>
+							If there is one thing you cannot miss out on in Taiwan, it’s
+							bubble tea. Hundreds – or even thousands – of bubble tea stalls
+							line the metro with unique flavours and sometimes questionable
+							concoctions.
+						</p>
+					</li>
+					<li class="card" data-aos="flip-up" data-aos-duration="2000">
+						<img src="images/fried_chicken.jpg" />
+						<h5>XXL fried chicken cutlet</h5>
+						<p>
+							A favorite between-meals snack for us,the Taiwanese know their
+							fried chicken really well! Originating from Taipei’s night
+							markets, this hugeass crispy chicken-ey snack is generously coated
+							with sweet and spicy seasonings!
+						</p>
+					</li>
+				</ul>
+			</section>
+			<!-- <section id="nightlife"></section> -->
+			<section id="call_to_action">
+				<div>
+					<h2>
+						Sign Up For Emails To Get Our Latest News <br />
+						Before Anybody Else
+					</h2>
+					<form>
+						<input
+							type="email"
+							name="email"
+							placeholder="Enter Your Email"
+						/><button type="submit">Submit</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
 </html>
